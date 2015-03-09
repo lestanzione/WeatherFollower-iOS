@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C4806441AA7CD2600D48896 /* CitiesEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4806431AA7CD2600D48896 /* CitiesEditViewController.swift */; };
+		9C4806461AA7D6EF00D48896 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4806451AA7D6EF00D48896 /* Configs.swift */; };
 		9CE978021AA61C910019FBEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE978011AA61C910019FBEF /* AppDelegate.swift */; };
-		9CE978041AA61C910019FBEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE978031AA61C910019FBEF /* ViewController.swift */; };
 		9CE978071AA61C910019FBEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE978051AA61C910019FBEF /* Main.storyboard */; };
 		9CE978091AA61C910019FBEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE978081AA61C910019FBEF /* Images.xcassets */; };
 		9CE9780C1AA61C910019FBEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CE9780A1AA61C910019FBEF /* LaunchScreen.xib */; };
 		9CE978181AA61C920019FBEF /* Weather_FollowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE978171AA61C920019FBEF /* Weather_FollowerTests.swift */; };
+		9CE978221AA6211D0019FBEF /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE978211AA6211D0019FBEF /* WeatherViewController.swift */; };
+		9CEC2F031AA68A69005D9351 /* CityResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC2F021AA68A69005D9351 /* CityResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C4806431AA7CD2600D48896 /* CitiesEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesEditViewController.swift; sourceTree = "<group>"; };
+		9C4806451AA7D6EF00D48896 /* Configs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
 		9CE977FC1AA61C910019FBEF /* Weather Follower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Follower.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE978001AA61C910019FBEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CE978011AA61C910019FBEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CE978031AA61C910019FBEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CE978061AA61C910019FBEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CE978081AA61C910019FBEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9CE9780B1AA61C910019FBEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9CE978111AA61C920019FBEF /* Weather FollowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather FollowerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE978161AA61C920019FBEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CE978171AA61C920019FBEF /* Weather_FollowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_FollowerTests.swift; sourceTree = "<group>"; };
+		9CE978211AA6211D0019FBEF /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		9CEC2F021AA68A69005D9351 /* CityResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				9CE978011AA61C910019FBEF /* AppDelegate.swift */,
-				9CE978031AA61C910019FBEF /* ViewController.swift */,
 				9CE978051AA61C910019FBEF /* Main.storyboard */,
+				9C4806431AA7CD2600D48896 /* CitiesEditViewController.swift */,
+				9C4806451AA7D6EF00D48896 /* Configs.swift */,
+				9CEC2F021AA68A69005D9351 /* CityResult.swift */,
+				9CE978211AA6211D0019FBEF /* WeatherViewController.swift */,
 				9CE978081AA61C910019FBEF /* Images.xcassets */,
 				9CE9780A1AA61C910019FBEF /* LaunchScreen.xib */,
 				9CE977FF1AA61C910019FBEF /* Supporting Files */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CE978041AA61C910019FBEF /* ViewController.swift in Sources */,
+				9C4806461AA7D6EF00D48896 /* Configs.swift in Sources */,
+				9CE978221AA6211D0019FBEF /* WeatherViewController.swift in Sources */,
 				9CE978021AA61C910019FBEF /* AppDelegate.swift in Sources */,
+				9CEC2F031AA68A69005D9351 /* CityResult.swift in Sources */,
+				9C4806441AA7CD2600D48896 /* CitiesEditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +419,7 @@
 				9CE9781D1AA61C920019FBEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CE9781E1AA61C920019FBEF /* Build configuration list for PBXNativeTarget "Weather FollowerTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				9CE978201AA61C920019FBEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
